@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form id="orderForm">
+
+    <h2 class="title-form">We would like to help you</h2>
+
+    <input type="text" id="userName" name="userName" placeholder="Name">
+    <div class="error" id="userNameError"></div>
+
+    <textarea id="message" name="message" rows="3" cols="30"
+              placeholder="Message"></textarea>
+    <div class="error" id="messageError"></div>
+
+    <h3 class="title-contact">How to answer you?</h3>
+
+    <input type="text" id="userPhone" name="userPhone"
+           placeholder="Phone number">
+    <div class="error" id="userPhoneError"></div>
+
+    <input type="email" id="userEmail" name="userEmail" placeholder="Email">
+    <div class="error" id="userEmailError"></div>
+
+    <button type="submit" id="btn" name="btn">Send message</button>
+
+</form>
+<script src="main.js"></script>
+</body>
+</html>
