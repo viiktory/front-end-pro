@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:hover {
+    background-color: #e0e0e0;
+}
+
+.todoList {
+    width: 400px;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.todo {
+    width: 100%;
+}
+
+.delete-btn {
+    background-color: #7c7a7a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
